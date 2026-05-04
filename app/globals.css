@@ -1,26 +1,72 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  user-select: none;
+  font-weight: "100-900";
 }
+
+
+ .title {
+    color: #fffefc;
+    text-shadow: 0px 0px 0 rgb(248,247,245),
+                 0px 1px 0 rgb(240,239,237),
+                 0px 2px 0 rgb(233,232,230),
+                 0px 3px 0 rgb(225,224,222),
+                 0px 4px 0 rgb(218,217,215),
+                 0px 5px 0 rgb(210,209,207),
+                 0px 6px 0 rgb(203,202,200),
+                 0px 7px 0 rgb(195,194,192),
+                 0px 8px 0 rgb(188,187,185),
+                 0px 9px 0 rgb(180,179,177),
+                 0px 10px 0 rgb(173,172,170),
+                 0px 11px 0 rgb(165,164,162),
+                 0px 12px  0 rgb(158,157,155),
+                 0px 13px 12px rgba(0,0,0,0.38),
+                 0px 13px 1px rgba(0,0,0,0.5),
+                 0px 0px 12px rgba(0,0,0,.2);
+ }
+
+ .subtitle {
+    color: #262626;
+    text-shadow: 0px 0px 0 rgb(16,16,16),
+                 0px 1px 0 rgb(-7,-7,0),
+                 0px 2px 0 rgb(-29,-29,0),
+                 0px 3px 0 rgb(-52,-52,0),
+                 0px 4px  0 rgb(-74,-74,0),
+                 0px 5px 4px rgba(0,0,0,0.38),
+                 0px 5px 1px rgba(0,0,0,0.5),
+                 0px 0px 4px rgba(0,0,0,.2);
+ }
+
+  .blue {
+    color: #26acff;
+    text-shadow: 0px 0px 0 rgb(21,155,238),
+                 0px 1px 0 rgb(4,138,221),
+                 0px 2px 0 rgb(-13,121,204),
+                 0px 3px  0 rgb(-30,104,187),
+                 0px 4px 3px rgba(0,0,0,0.14),
+                 0px 4px 1px rgba(0,0,0,0.5),
+                 0px 0px 3px rgba(0,0,0,.2);
+ }
+  .blue_dark {
+    color: #0b84cf;
+    text-shadow: 0px 0px 0 rgb(-6,115,190),
+                 0px 1px 0 rgb(-23,98,173),
+                 0px 2px 0 rgb(-40,81,156),
+                 0px 3px  0 rgb(-57,64,139),
+                 0px 4px 3px rgba(0,0,0,0.14),
+                 0px 4px 1px rgba(0,0,0,0.5),
+                 0px 0px 3px rgba(0,0,0,.2);
+ }
+   .cyan {
+    color: #1be8fb;
+    text-shadow: 0px 0px 0 rgb(31,210,238),
+                 0px 1px 0 rgb(14,193,221),
+                 0px 2px 0 rgb(-3,176,204),
+                 0px 3px  0 rgb(-20,159,187),
+                 0px 4px 3px rgba(0,0,0,0.14),
+                 0px 4px 1px rgba(0,0,0,0.5),
+                 0px 0px 3px rgba(0,0,0,.2);
+ }
