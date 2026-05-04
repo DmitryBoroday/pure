@@ -9,7 +9,7 @@ export default function Home() {
     <main className='relative flex flex-col justify-center items-center w-full h-full overflow-hidden'>
       <Hero />
       <Sycho />
-      {/* <CatchAttention /> */}
+      <CatchAttention />
       <StoryTell />
     </main>
   )

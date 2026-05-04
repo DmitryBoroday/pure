@@ -83,7 +83,7 @@ export default function Sycho() {
                         height='100%'
                         poster='' />
                     <div className='absolute inset-0 flex flex-col justify-center items-center'>
-                        <p className='text-white text-9xl lg:text-[200px] bg-white/10 backdrop-blur-lg font-bold px-12 w-full'>{item.tag}</p>
+                        <p className='text-white text-9xl lg:text-[200px] bg-white/10 backdrop-blur-lg text-center font-bold px-12'>{item.tag}</p>
                     </div>
                 </SwiperSlide>
             ))}
