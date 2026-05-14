@@ -8,51 +8,51 @@ import { Autoplay, EffectFade, } from 'swiper/modules'
 const data = [
     {
         video: '/videos/city_fast.mp4',
-        tag: 'tag here'
+        tag: 'tag number 1'
     },
     {
         video: '/videos/oil.mp4',
-        tag: 'tag here'
+        tag: 'tag number 2'
     },
     {
         video: '/videos/blood.mp4',
-        tag: 'tag here'
+        tag: 'tag number 3'
     },
     {
         video: '/videos/cartoon.mp4',
-        tag: 'tag here'
+        tag: 'tag number 4 '
     },
     {
         video: '/videos/bamboo-shake.mp4',
-        tag: 'tag here'
+        tag: 'tag number 5'
     },
     {
         video: '/videos/lava.mp4',
-        tag: 'tag here'
+        tag: 'tag number 6'
     },
     {
         video: '/videos/wave.mp4',
-        tag: 'tag here'
+        tag: 'tag number 7'
     },
     {
         video: '/videos/wasp-2.mp4',
-        tag: 'tag here'
+        tag: 'tag number 8'
     },
     {
         video: '/videos/horses.mp4',
-        tag: 'tag here'
+        tag: 'tag number 10'
     },
     {
         video: '/videos/samurai.mp4',
-        tag: 'tag here'
+        tag: 'tag number 11'
     },
     {
         video: '/videos/lips.mp4',
-        tag: 'tag here'
+        tag: 'tag number 12'
     },
     {
         video: '/videos/plane.mp4',
-        tag: 'tag here'
+        tag: 'tag number 13'
     },
 ]
 
@@ -68,7 +68,7 @@ export default function Sycho() {
                 disableOnInteraction: false,
             }}
             modules={[EffectFade, Autoplay]}
-            className='bg-black w-full h-screen'
+            className='bg-black w-full h-full lg:h-150'
         >
             {data?.map((item, idx) => (
                 <SwiperSlide key={idx} className='relative w-full h-full'>
@@ -83,7 +83,7 @@ export default function Sycho() {
                         height='100%'
                         poster='' />
                     <div className='absolute inset-0 flex flex-col justify-center items-center'>
-                        <p className='text-white text-9xl lg:text-[200px] bg-white/10 backdrop-blur-lg text-center font-bold px-12'>{item.tag}</p>
+                        <p className='text-white text-5xl lg:text-[200px] bg-white/10 backdrop-blur-lg text-center font-bold lg:px-12'>{item.tag}</p>
                     </div>
                 </SwiperSlide>
             ))}

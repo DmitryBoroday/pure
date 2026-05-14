@@ -2,9 +2,9 @@
 
 export default function Hero() {
     return (
-        <section className='w-full h-screen flex flex-col justify-center lg:justify-around items-center lg:items-start'>
-            <p className='title text-9xl lg:text-[480px] mt-2 lg:mt-0'>pure</p>
-            <h1 className='subtitle text-4xl lg:text-7xl text-end pr-12 lg:pr-32 tracking-widest mt-12 lg:mt-0 w-full'>we build<br className='lg:hidden' /> brands</h1>
+        <section className='w-full h-full flex flex-col justify-center items-center  my-12 lg:mb-24'>
+            <p className='title text-9xl lg:text-[520px] mt-2 lg:mt-0'>pure</p>
+            <h1 className='subtitle text-3xl lg:text-6xl text-end pr-12 lg:pr-32 tracking-widest mt-12 lg:mt-0 w-full'>we build<br className='lg:hidden' /> brands</h1>
 
 
 
