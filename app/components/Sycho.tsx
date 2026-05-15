@@ -8,7 +8,7 @@ import { Autoplay, EffectFade, } from 'swiper/modules'
 const data = [
     {
         video: '/videos/city_fast.mp4',
-        tag: 'tag number 1'
+        tag: 'to much noise'
     },
     {
         video: '/videos/oil.mp4',
