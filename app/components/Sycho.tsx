@@ -37,6 +37,11 @@ const data = [
         poster: '/videos/lava.avif'
     },
     {
+        video: '/videos/eye.mp4',
+        tag: 'clear your vision',
+        poster: '/videos/eye.avif'
+    },
+    {
         video: '/videos/wave.mp4',
         tag: 'stay calm',
         poster: '/videos/wave.avif'

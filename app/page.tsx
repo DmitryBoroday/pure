@@ -1,3 +1,5 @@
+import BuildTrust from './components/BuildTrust'
+import CallToAction from './components/CallToAction'
 import CatchAttention from './components/CatchAttention'
 import Hero from './components/Hero'
 import StoryTell from './components/StoryTell'
@@ -11,6 +13,8 @@ export default function Home() {
       <Sycho />
       <CatchAttention />
       <StoryTell />
+      <BuildTrust />
+      <CallToAction />
     </main>
   )
 }
